@@ -12,7 +12,7 @@ COPY . /app
 RUN pip3 install --no-cache-dir --break-system-packages -r requirements.txt
 
 # Expose port
-EXPOSE 80 9999
+EXPOSE 80 8888
 
 # Run the app
 CMD ["python3", "app.py"]
